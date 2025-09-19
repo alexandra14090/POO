@@ -1,9 +1,9 @@
 public class clasePaciente {
-    public int edad;
-    public String fechaNacimiento;
-    public String direccion;
-    public String telefono;
-    public String rh;
+    private int edad;
+    private String fechaNacimiento;
+    private String direccion;
+    private String telefono;
+    private String rh;
 
     public clasePaciente(int edad, String fechaNacimiento, String direccion, String telefono, String rh) {
         this.edad = edad;
@@ -13,6 +13,14 @@ public class clasePaciente {
         this.rh = rh;
     }
 
+    public int getEdad() {
+    return edad;
+    }
+
+    public void setEdad(int edad) {
+    this.edad = edad;
+    }
+    
     public void crearPaciente() {
         System.out.println("Paciente creado");
     }

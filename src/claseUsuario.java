@@ -1,10 +1,10 @@
 public class claseUsuario {
-    private String nombre;
-    private String direccion;
-    private String telefono;
-    private String correo;
-    private String login;
-    private String contrasena;
+    protected String nombre;
+    protected String direccion;
+    protected String telefono;
+    protected String correo;
+    protected String login;
+    protected String contrasena;
 
     public claseUsuario(String nombre, String direccion, String telefono, String correo, String login, String contrasena) {
         this.nombre = nombre;

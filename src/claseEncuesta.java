@@ -1,7 +1,7 @@
 public class claseEncuesta {
-    public boolean siAsistioMedGen;
-    public boolean siAsistioOdont;
-    public boolean siAsistioPsico;
+    private boolean siAsistioMedGen;
+    private boolean siAsistioOdont;
+    private boolean siAsistioPsico;
 
     public claseEncuesta(boolean siAsistioMedGen, boolean siAsistioOdont, boolean siAsistioPsico) {
         this.siAsistioMedGen = siAsistioMedGen;
